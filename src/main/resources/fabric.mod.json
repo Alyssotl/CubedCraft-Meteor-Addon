@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "cubedcraft-addon",
+    "version": "${version}",
+    "name": "CubedCraft Addon",
+    "description": "An CubedCraft Meteor Addon.",
+    "authors": [
+        "LegitMeme"
+    ],
+    "contact": {
+        "repo": ""
+    },
+    "icon": "assets/template/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "meteor": [
+            "com.example.cubedcraft.CubedCraftAddon"
+        ]
+    },
+    "mixins": [
+        "cubedcraft-addon.mixins.json"
+    ],
+    "custom": {
+        "meteor-client:color": "225,25,25"
+    },
+    "depends": {
+        "java": ">=17",
+        "minecraft": ">=${mc_version}",
+        "meteor-client": "*"
+    }
+}
