@@ -8,7 +8,7 @@
         "LegitMeme"
     ],
     "contact": {
-        "repo": ""
+        "repo": "https://github.com/Alyssotl/CubedCraft-Meteor-Addon"
     },
     "icon": "assets/template/icon.png",
     "environment": "client",
